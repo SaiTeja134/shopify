@@ -5,7 +5,7 @@ import { useStore } from '@/context/StoreContext';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
-import { CreditCard, ShieldCheck, User, MapPin, Check } from 'lucide-react';
+import { CreditCard, ShieldCheck, User, MapPin, Check, ShoppingCart } from 'lucide-react';
 import { toast } from 'sonner';
 
 enum CheckoutStep {
